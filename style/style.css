@@ -1,0 +1,168 @@
+
+/*------------------------ html and body---------------*/
+html {
+  box-sizing: border-box;
+}
+
+body {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: black;
+background-image: url("/images/man.png");
+}
+img{
+  width: 100%;
+  height: 200px;
+}
+ 
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 550px}
+  /*------------------------ nav bar ---------------*/
+  .jumbotron, .navbar {
+    background-color: rgb(212, 227, 240);
+   
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+  .navbar {
+    margin-bottom: 2;
+    border-radius: 2;
+  }
+
+
+/* contact us page style */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+#logoImg {
+  border-radius: 80%;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+@media (prefers-reduced-motion: reduce) {
+  .fcf-btn {
+      transition: none;
+  }
+}
+
+.fcf-btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.fcf-btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+  display: block; 
+}
+
+.fcf-btn-block+.fcf-btn-block {
+  margin-top: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+  width: 100%;
+}
+
+
+
+
+
+
+
+      /* Add a gray background color and some padding to the footer */
+      footer {
+        text-align: center;
+        margin-top: 40%;
+        padding: 3px;
+        background-color: rgb(212, 227, 240);
+        color: rgb(11, 9, 9);
+      }
+
+   /* On small screens, set height to 'auto' for the grid */
+   @media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+  }
+
+     /* On small screens, set height to 'auto' for the grid */
+     @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  
